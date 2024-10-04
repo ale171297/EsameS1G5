@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65rem;
+}
+
+header {
+  background-color: black;
+  padding: 1rem;
+}
+
+header img {
+  width: 130px;
+}
+
+div {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 1rem;
+}
+
+div p {
+  font-size: 1rem;
+  max-width: 80%;
+  margin: 0 auto 2rem;
+}
+
+button {
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-family: "Montserrat", bold;
+}
+
+section {
+  padding: 2rem;
+}
+
+.first img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin: 1.5rem;
+}
+
+h2 {
+  color: #25a2c3;
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  margin: auto;
+  max-width: 80%;
+  padding: 1rem;
+}
+
+section img {
+  max-width: 80%;
+  height: auto;
+}
+
+.garanzie {
+  background-color: #f04c2f;
+  color: antiquewhite;
+  padding: 2rem;
+}
+
+.garanzie h2 {
+  color: antiquewhite;
+  font-size: 1.8rem;
+}
+
+.garanzie p {
+  line-height: 1.7rem;
+}
+
+.garanzie span {
+  font-style: italic;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  line-height: 1.3rem;
+  padding: 1.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h2 {
+  color: white;
+}
+
+a {
+  color: #c8e7f0;
+}
+hr {
+  width: 70%;
+}
